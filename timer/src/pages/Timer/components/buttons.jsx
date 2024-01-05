@@ -1,7 +1,12 @@
-const Buttons = () => {
+import { useEffect } from 'react';
+
+const Buttons = ({ setCount }) => {
+    const handleStart = () => {
+    };
+
     return (
         <>
-            <button>시작</button>
+            <button onClick={handleStart}>시작</button>
             <button>중지</button>
             <button>리셋</button>
             <br />
