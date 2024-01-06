@@ -1,6 +1,6 @@
 import { useEffect, useRef } from 'react';
 import { useState } from 'react';
-import Buttons from './buttons';
+import Buttons from './_Buttons';
 
 const Timer = () => {
     const [count, setCount] = useState(0);
